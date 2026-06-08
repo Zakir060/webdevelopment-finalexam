@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .qutu{
+            width: 350px;
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            gap: 15px;
+        }
+        .box{
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+            color: white;
+        }
+        .th{
+            background-color: gold;
+        }
+        .se{
+            background-color: gold;
+        }
+        .he{
+            background-color: gold;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+     <div class="qutu">
+        <div class="box he">Title</div>
+        <div class="box se">2</div>
+        <div class="box th">3</div>
+     </div>
+</body>
+</html>

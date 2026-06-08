@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            padding: 20px;
+            height: 300px;
+            border: 3px solid purple;
+        }
+        h1{
+            color: purple;
+        }
+        label{
+            color: purple;
+            font-weight: bold;
+        }
+        input,textarea{
+            width: 350px;
+            height: 50px;
+            border: 3px solid purple;
+        }
+        button{
+            background-color: purple;
+            color: white;
+            width: 400px;
+            height: 40px;
+            border: none;
+            margin: 10px;
+        }
+        h1,label,input,label,button,textarea{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Contant Us</h1>
+        <label>Full name:</label>
+        <input type="text" placeholder="Your Name">
+        <label>Subject</label>
+        <input type="text" placeholder="Message subject">
+        <label>Message:</label>
+        <textarea placeholder="Type your massage"></textarea>
+        <button>send</button>
+    </div>
+</body>
+</html>
